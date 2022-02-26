@@ -23,6 +23,7 @@ func main() {
 			return
 		}
 
+		// To combine sequential search arguments and search.
 		bookSubstr := strings.Join(args[2:], " ")
 		bookIndexes := utils.SearchInBooks(bookSubstr)
 

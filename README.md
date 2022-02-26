@@ -7,15 +7,15 @@ A library application with search and listing features written in Go language.
 
 ```properties
 ├── helper
-│   └── cli.go
+│   └── cli.go		-> To manage command line operations.
 ├── models
-│   └── book.go
+│   └── book.go		
 ├── output
 │   └── output.png
 ├── utils
-│   ├── common.go
-│   └── storage.go
-└── main.go
+│   ├── common.go	-> To manage search operations.
+│   └── storage.go	-> To manage data operations.
+└── main.go			-> To manage operations according to arguments.
 ```
 
 ### Usage
