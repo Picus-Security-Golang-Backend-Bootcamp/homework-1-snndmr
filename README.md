@@ -15,7 +15,7 @@ A library application with search and listing features written in Go language.
 ├── utils
 │   ├── common.go	-> To manage search operations.
 │   └── storage.go	-> To manage data operations.
-└── main.go			-> To manage operations according to arguments.
+└── main.go		-> To manage operations according to arguments.
 ```
 
 ### Usage
