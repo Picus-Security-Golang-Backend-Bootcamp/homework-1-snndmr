@@ -3,7 +3,7 @@
 
 A library application with search and listing features written in Go language.
 
-### Project structure
+### Project Structure
 
 ```properties
 ├── helper
@@ -20,11 +20,13 @@ A library application with search and listing features written in Go language.
 
 ### Usage
 + To list all books.
+	
 	```cmd
 	go run main.go list
 	```
 
 + To search within books by book name. You don't need to type the exact title of the book to search.
+	
 	```cmd
 	go run main.go search book_title
 	```
@@ -33,6 +35,6 @@ A library application with search and listing features written in Go language.
 	go run main.go search boo
 	```
 
-+ Sample scenario of the application
++ Sample scenario of the application.
 
-![ExampleRun](output/output.png)
+	![ExampleRun](output/output.png)
