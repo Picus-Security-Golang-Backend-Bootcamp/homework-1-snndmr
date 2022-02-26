@@ -34,4 +34,5 @@ A library application with search and listing features written in Go language.
 	```
 
 + Sample scenario of the application
+
 ![ExampleRun](output/output.png)
