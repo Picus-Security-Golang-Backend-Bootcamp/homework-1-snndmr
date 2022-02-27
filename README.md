@@ -1,5 +1,5 @@
 # Go Library App
-![Golang](https://img.shields.io/badge/go-1.17-green) ![AskMe](https://img.shields.io/badge/Ask%20me-anyting-orange) ![FollowMe](https://img.shields.io/github/followers/snndmr?style=social)
+![Golang](https://img.shields.io/badge/go-1.17-green) ![AskMe](https://img.shields.io/badge/Ask%20me-anyting-orange)
 
 A library application with search and listing features written in Go language.
 
@@ -18,22 +18,46 @@ A library application with search and listing features written in Go language.
 └── main.go			-> To manage operations according to arguments.
 ```
 
-### Usage
-+ To list all books.
-	
+### Build
++ To crete binary file.
+
 	```cmd
-	go run main.go list
+	go build -o Library_1.0.0
 	```
 
+### Usage
++ To list all books.
+	+ From source code.
+
+		```cmd
+		go run main.go list
+		```
+	+ From binary file.
+
+		```cmd
+		Library_1.0.0 list
+		```
+
 + To search within books by book name. You don't need to type the exact title of the book to search.
-	
-	```cmd
-	go run main.go search book_title
-	```
-	
-	```cmd
-	go run main.go search boo
-	```
+	+ From source code.
+
+		```cmd
+		go run main.go search book_title
+		```
+		
+		```cmd
+		go run main.go search boo
+		```
+
+	+ From binary file.
+
+		```cmd
+		Library_1.0.0 search book_title
+		```
+		
+		```cmd
+		Library_1.0.0 search boo
+		```	
 
 + Sample scenario of the application.
 
