@@ -1,5 +1,5 @@
 # Go Library App
-![Golang](https://img.shields.io/badge/go-1.17-green) ![AskMe](https://img.shields.io/badge/Ask%20me-anyting-orange)
+![Golang](https://img.shields.io/badge/go-1.17-green) ![AskMe](https://img.shields.io/badge/Ask%20me-anything-orange)
 
 A library application with search and listing features written in Go language.
 
